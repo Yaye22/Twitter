@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+          <meta charset="utf-8" />
+          <title>Twitter</title>
+          <link rel="stylesheet" href="Twitter.css"/>
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scla=1.0">
+          <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+          <link 
+           rel="stylesheet"
+           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" 
+           integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" 
+           crossorigin="anonymous"
+           />
+          <link rel="icon" type="image/png" href="twitter_socialnetwork_20007.ico"> 
+          <link rel="shortcut icon" type="image/x-icon" href="twitter_socialnetwork_20007.ico">
+
+          
+          
+
+          
+    </head>
+
+    <body>
+        
+    <nav class="sidebar"> 
+       <i class="fab fa-twitter"></i>
+    <div 
+       class="sidebareOption Active">
+       <span class="material-icons"> home </span> <h2>Accueil</h2>
+    </div> 
+    <div 
+       class="sidebareOption">
+       <span class="material-icons"> tag </span>
+       <h2>Explorer</h2>
+    </div> 
+    <div 
+       class="sidebareOption">
+       <span class="material-icons"> notifications </span>
+       <h2>Notifications</h2>
+    </div> 
+    <div 
+       class="sidebareOption">
+       <span class="material-icons"> email </span>
+       <h2>Messages</h2>
+    </div> 
+    <div 
+       class="sidebareOption">
+       <span class="material-icons"> bookmark_border </span>
+       <h2>Signets</h2>
+    </div> 
+    <div 
+       class="sidebareOption">
+       <span class="material-icons"> sort </span>
+       <h2>Listes</h2>
+    </div> 
+    <div 
+       class="sidebareOption">
+       <span class="material-icons"> person </span>
+       <h2>Profil</h2>
+    </div> 
+    <div 
+       class="sidebareOption">
+       <span class="material-icons"> more_horiz </span>
+       <h2>Plus</h2>
+    </div> 
+    <div>
+        <button class="sidebar__tweet"> Tweeter </button>
+    </div>
+   </nav>
+  
+
+    
+    <main class="feed">
+        <div
+            class="feed__header">
+            <h2>Accueil</h2>
+        </div>
+
+        <div
+            class="tweetBox">
+              <form>
+                  <div class="tweetbox__input">
+                      <img 
+                      src="https://cdn.pixabay.com/photo/2017/06/13/12/53/profile-2398782_960_720.png" 
+                      alt=""
+                      />
+                      <input type="text" placeholder="Quoi de neuf ?">
+                  </div>
+                  <button class="tweetBox__tweetButton">Tweeter</button>
+              </form>
+        </div>
+
+
+         <div class="post">
+             <div class="post__icone">
+                <img 
+                   src="https://cdn.pixabay.com/photo/2017/06/13/12/53/profile-2398782_960_720.png" 
+                   alt=""
+                   />
+             </div>
+
+             <div class="post__body">
+                <div class="post__header">
+                   <div class="post__headerText">
+                      <h3>PSG
+                         <span class="post__headerSpecial">
+                            <span class="material-icons post__badge"> verified</span> @psg_paris
+                         </span>
+                      </h3>
+                   </div>
+                <div class="post__headerDescription">
+                   <p>Nous venons d'assister au premier but de Lionel Messi avec le PSG en LDC</p>
+                </div>
+             </div>
+
+             <img 
+                src="Tweet_LM.jpeg" 
+                alt=""
+             />
+ 
+             <div class="post__footer">
+                <span class="material-icons"> repeat </span>
+                <span class="material-icons"> favorite_border </span>
+                <span class="material-icons"> publish </span>
+             </div>
+          </div>
+          </div>
+
+             <div class="post">
+                <div class="post__icone">
+                   <img 
+                      src="https://cdn.pixabay.com/photo/2017/06/13/12/53/profile-2398782_960_720.png" 
+                      alt=""
+                   />
+                </div>
+
+                <div class="post__body">
+                   <div class="post__header">
+                      <div class="post__headerText">
+                         <h3>Zendaya.C
+                            <span class="post__headerSpecial">
+                               <span class="material-icons post__badge"> verified</span> @zend_c
+                            </span>
+                         </h3>
+                      </div>
+                   <div class="post__headerDescription">
+                      <p>Juste histoire de poster !</p>
+                   </div>
+             </div>
+
+             <img 
+                src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/gettyimages-1176438635.jpg?crop=0.427xw:0.959xh;0.219xw,0.0408xh&resize=480:*" 
+                alt=""
+                />
+
+             <div class="post__footer">
+                <span class="material-icons"> repeat </span>
+                <span class="material-icons"> favorite_border </span>
+                <span class="material-icons"> publish </span>
+             </div>
+    </main>
+
+    <aside class="widgets">
+      <div class="widgets__input">
+         <span class="material-icons widgets-searchIcon"> search </span>
+         <input type="text" placeholder="Recherche Twitter">
+      </div>
+
+      <br/>
+
+      <div class="trends-for-you">
+          <div class="trends-for-you__block">
+             <div class="trends-for-you__heading">
+                Tendances pour vous 
+             </div>
+          </div>
+
+          <div class="trends-for-you__block">
+             <div class="trends-for-you__meta-information">
+                Tendances dans la catégorie France 
+             </div>
+                   <div class="trends-for-you__trend-name">
+                      Travis
+                   </div>
+                     <div class="trends-for-you__meta-information">
+                        821 k Tweets
+                      </div>
+          </div>       
+             
+          <div class="trends-for-you__block">
+             <div class="trends-for-you__meta-information">
+                Musique . Tendances
+             </div>
+                   <div class="trends-for-you__trend-name">
+                      Apple
+                   </div>
+                      <div class="trends-for-you__meta-information">
+                         546 k Tweets
+                      </div>
+          </div>   
+
+          <div class="trends-for-you__block">
+             <div class="trends-for-you__meta-information">
+                ligue 1 . Tendances
+             </div>
+                   <div class="trends-for-you__trend-name">
+                      Harit
+                   </div>      
+          </div>  
+
+          <div class="trends-for-you__block">
+             <div class="trends-for-you__meta-information">
+                ligue 1 . Tendances
+             </div>
+                   <div class="trends-for-you__trend-name">
+                      Milik
+                   </div>
+                      <div class="trends-for-you__meta-information">
+                         11,5 k Tweets
+                      </div>
+          </div>  
+
+          <div class="trends-for-you__block">
+             <div class="trends-for-you__meta-information">
+                Tendances au Sénegal
+             </div>
+                   <div class="trends-for-you__trend-name">
+                      #MDHM
+                   </div>
+                      <div class="trends-for-you__meta-information">
+                         8k Tweets
+                      </div>
+          </div>                     
+       </div>
+    </aside>
+
+    </body>
+
+
+
+
+       
